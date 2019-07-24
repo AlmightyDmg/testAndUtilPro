@@ -27,6 +27,7 @@
       <scope>test</scope>
     </dependency>
 
+    <!--word转html依赖-->
     <dependency>
       <groupId>fr.opensagres.xdocreport</groupId>
       <artifactId>fr.opensagres.xdocreport.document</artifactId>
@@ -37,7 +38,7 @@
       <artifactId>org.apache.poi.xwpf.converter.xhtml</artifactId>
       <version>1.0.5</version>
     </dependency>
-
+    <!--poi依赖-->
     <dependency>
       <groupId>org.apache.poi</groupId>
       <artifactId>poi</artifactId>
