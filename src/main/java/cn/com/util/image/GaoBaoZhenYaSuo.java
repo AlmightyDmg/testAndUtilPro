@@ -1,4 +1,4 @@
-package cn.com.util;
+package cn.com.util.image;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -7,7 +7,11 @@ import com.sun.image.codec.jpeg.JPEGCodec;
 import com.sun.image.codec.jpeg.JPEGEncodeParam;
 import com.sun.image.codec.jpeg.JPEGImageEncoder;
 
-
+/**
+ * @author zhum
+ * @date 2019年7月24日 15:34:20
+ * @description 对图片进行高保真压缩
+ */
 public class GaoBaoZhenYaSuo {
     /**
      * 原始图像
@@ -70,9 +74,9 @@ public class GaoBaoZhenYaSuo {
     }
 
     public static void main(String[] args) {
-        String inputFoler = "C:\\Users\\zhum\\Desktop\\yuan.png" ;
+        String inputFoler = "C:\\Users\\xxx\\Desktop\\yuan.png" ;
         /*这儿填写你存放要缩小图片的文件夹全地址*/
-        String outputFolder = "C:\\Users\\zhum\\Desktop\\new.png";
+        String outputFolder = "C:\\Users\\xxx\\Desktop\\new.png";
         /*这儿填写你转化后的图片存放的文件夹*/
         GaoBaoZhenYaSuo narrowImage = new GaoBaoZhenYaSuo();
         narrowImage.writeHighQuality(narrowImage.zoomImage(inputFoler), outputFolder);

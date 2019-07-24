@@ -1,4 +1,4 @@
-package cn.com.util;
+package cn.com.util.word;
 
 import org.apache.poi.hwpf.HWPFDocument;
 import org.apache.poi.hwpf.converter.PicturesManager;
@@ -18,19 +18,24 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.*;
 
+/**
+ * @author zhum
+ * @date 2019年7月24日 15:35:15
+ * @description 将Word转换为html，适用于doc和docx文档
+ */
 public class Word2HtmlUtils {
 
     public static void main(String[] args) {
-//        String filepath = "C:\\Users\\zhum\\Desktop\\";
-//        String fileName = "NTM法官工作平台数据库设计v1.4.9.docx";
+//        String filepath = "C:\\Users\\xxx\\Desktop\\";
+//        String fileName = "xxxx.docx";
 //        String htmlName = "test.html";
         //wordDocx2Html(filepath,fileName,htmlName);
 
 
-        String filepath = "C:\\Users\\zhum\\Desktop\\";
-        String imagepath = "C:\\Users\\zhum\\Desktop\\image";
-        String fileName = "笔录模板.doc";
-        String htmlName = "testdoc.html";
+        String filepath = "C:\\Users\\xxx\\Desktop\\";
+        String imagepath = "C:\\Users\\xxx\\Desktop\\image";
+        String fileName = "xxxx.doc";
+        String htmlName = "xxxx.html";
         wordDoc2Html(filepath,imagepath,fileName,htmlName);
 
     }
