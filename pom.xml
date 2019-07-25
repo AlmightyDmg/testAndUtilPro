@@ -59,6 +59,14 @@
           <version>15.8.0</version>
       </dependency>
       <!--word转pdf结束-->
+
+      <!--图片转pdf开始-->
+      <dependency>
+          <groupId>fakepath</groupId>
+          <artifactId>itext</artifactId>
+          <version>2.1.5</version>
+      </dependency>
+      <!--图片转pdf结束-->
   </dependencies>
 
   <build>
