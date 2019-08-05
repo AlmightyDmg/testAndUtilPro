@@ -8,7 +8,7 @@ Java开发中常用的工具类，包括但不限于对word、excel、html、pdf
 ## 2.执行命令：
 mvn install:install-file -Dfile=C:\Users\xxx\Desktop\aspose-words-15.8.0-jdk16.jar -DgroupId=com.aspose.words -DartifactId=aspose-words-jdk16 -Dversion=15.8.0 -Dpackaging=jar
 
-参照你再pom.xml中的依赖修改上述命令
+参照你在pom.xml中的依赖修改上述命令
 
 ```
 <dependency>
