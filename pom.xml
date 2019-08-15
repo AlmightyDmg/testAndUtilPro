@@ -68,6 +68,14 @@
       </dependency>
       <!--excel转pdf结束-->
 
+      <!--生成二维码开始-->
+      <dependency>
+          <groupId>Qrcode</groupId>
+          <artifactId>Qrcode</artifactId>
+          <version>3.0</version>
+      </dependency>
+      <!--生成二维码结束-->
+
 
 
       <!--图片转pdf开始-->
